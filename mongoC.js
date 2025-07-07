@@ -1,5 +1,7 @@
 import { MongoClient } from "mongodb";
 
+console.log(" Connecting to MongoDB Atlas...");
+
 const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
 // const connectionString = `mongodb+srv://integrationninjas:${password}@devcluster.hu5pjmi.mongodb.net/?retryWrites=true&w=majority`; // cluster url
 const connectionString = `mongodb+srv://vishal:${password}@mernprojectcluster.ygj2gl8.mongodb.net/?retryWrites=true&w=majority&appName=mernprojectcluster`; // cluster url
